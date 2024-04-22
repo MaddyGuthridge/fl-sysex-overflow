@@ -41,7 +41,7 @@ def main():
 
     port.send(Message("sysex", data=msg))
 
-    print("Message sent... Check FL Studio script output")
+    print("Message sent...")
 
 
 try:
